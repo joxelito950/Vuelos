@@ -115,7 +115,9 @@ public class consultas extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
+        TechVuelos tv = new TechVuelos();
+        
+        jTable1.setValueAt(tv.consultarVuelos(),1,1);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

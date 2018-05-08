@@ -9,13 +9,13 @@ package vuelos;
  *
  * @author ASUS
  */
-public class cliente {
+public class Cliente {
     private String ced;
     private String nom;
     private String ape;
     private int edad;
 
-    public cliente(String ced, String nom, String ape, int edad) {
+    public Cliente(String ced, String nom, String ape, int edad) {
         this.ced = ced;
         this.nom = nom;
         this.ape = ape;
